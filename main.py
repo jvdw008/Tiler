@@ -20,7 +20,7 @@ class Tiler(Frame):
         self.setup()
 
     def setup(self):
-        self.version = 0.9
+        self.version = 1.0
 
         self.master.title("Tiler -V." + str(self.version))
         self.master.iconbitmap(self.resource_path("tiler_logo.ico"))
